@@ -11,7 +11,7 @@ export const WeatherProvider = ({ children }) => {
     )
       .then((res) => res.json())
       .then((data) => setWeather(data));
-  }, [weather, city]);
+  }, [city]);
 
   const values = { city, setCity, weather };
 
