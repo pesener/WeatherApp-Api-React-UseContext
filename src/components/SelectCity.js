@@ -1,5 +1,5 @@
 import { Formik } from "formik";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import WeatherContext from "../context/WeatherContext";
 import Wheather from "./Wheather";
 
@@ -8,17 +8,22 @@ const SelectCity = () => {
   const handleSelect = (e) => {
     setCity(e.target.value);
   };
-  console.log(weather.list);
+  console.log(weather);
   return (
     <div className="container">
       <h1>Wheather App</h1>
 
       <Formik>
         <form>
-          <select name="city" onChange={handleSelect}>
-            <option value="izmir">İzmir</option>
+          <select
+            className="select"
+            name="city"
+            value={city}
+            onChange={handleSelect}
+          >
+            <option value="izmir">Izmir</option>
             <option value="ankara">Ankara</option>
-            <option value="istanbul">İstanbul</option>
+            <option value="istanbul">Istanbul</option>
           </select>
         </form>
       </Formik>

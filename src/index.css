@@ -14,6 +14,45 @@ text-align: center;
 .bullets{
   list-style-type: none;
 }
+
+h2{
+  display: block;
+  
+ 
+
+}
+.select{
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  font-size: large;
+}
+.result{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 80%;
+  flex-direction: column;
+}
+
+ul{
+width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  display: flex;
+ align-items: center;
+ text-align: center;
+  
+margin-right: 50px;
+}
+
+img{
+  padding: 10px;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
