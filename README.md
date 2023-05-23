@@ -7,6 +7,7 @@ Features:
 Select any city and view its weather information instantly.
 Displays the current temperature, weather description, humidity, and wind speed.
 Simple and intuitive user interface.
+
 Technologies Used:
 
 React.js
