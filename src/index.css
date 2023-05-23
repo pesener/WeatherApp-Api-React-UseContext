@@ -23,33 +23,43 @@ h2{
 }
 .select{
   width: 200px;
-  height: 30px;
+  height: 40px;
   text-align: center;
   font-size: large;
 }
 .result{
   display: flex;
-  margin: auto;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
-  width: 80%;
-  flex-direction: column;
+  flex-direction:row
 }
 
 ul{
-width: 300px;
+width: 200px;
   display: flex;
   justify-content: space-evenly;
   display: flex;
- align-items: center;
+  align-items: center;
  text-align: center;
   
 margin-right: 50px;
 }
 
-img{
-  padding: 10px;
+li{
+  display: flex;
+  flex-direction:column;
+height: 65px;
+width: 70px;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+
+
+}
+
+.images{
+  padding: 2px;
 }
 
 
