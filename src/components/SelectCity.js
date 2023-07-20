@@ -1,7 +1,7 @@
 import { Formik } from "formik";
 import React, { useContext } from "react";
 import WeatherContext from "../context/WeatherContext";
-import Wheather from "./Wheather";
+import Weather from "./Weather";
 
 const SelectCity = () => {
   const { city, setCity, weather } = useContext(WeatherContext);
@@ -11,7 +11,7 @@ const SelectCity = () => {
   console.log(weather);
   return (
     <div className="container">
-      <h1>Wheather App</h1>
+      <h1>Weather App</h1>
 
       <Formik>
         <form>
@@ -28,7 +28,7 @@ const SelectCity = () => {
         </form>
       </Formik>
 
-      <Wheather />
+      <Weather />
     </div>
   );
 };

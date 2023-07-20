@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import WeatherContext from "../context/WeatherContext";
-const Wheather = () => {
+const Weather = () => {
   const { weather } = useContext(WeatherContext);
 
   return (
@@ -31,4 +31,4 @@ const Wheather = () => {
   );
 };
 
-export default Wheather;
+export default Weather;
