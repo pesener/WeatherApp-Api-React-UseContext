@@ -1,4 +1,4 @@
-![](images/iamgew2.png)
+![](images/imagew2.png)
 
 Weather App is a web application built using React.js and demonstrates the usage of the useContext hook. It allows users to select a city and view the current weather conditions for that location.
 
